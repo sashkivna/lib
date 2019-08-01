@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-simple-alert": [
+        "dist/ng-simple-alert"
+      ],
+      "ng-simple-alert/*": [
+        "dist/ng-simple-alert/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
